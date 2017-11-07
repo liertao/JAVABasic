@@ -6,7 +6,9 @@ LinkedList链表由一系列表项连接而成。一个表项总是包含3个部
 **综述**
 
 **·1.ArrayList是实现了基于动态数组的数据结构，LinkedList基于链表的数据结构。** 
+
 **·2.对于随机访问get和set，ArrayList觉得优于LinkedList，因为LinkedList要移动指针。**
+
 **·3.对于新增和删除操作add和remove，LinedList比较占优势，因为ArrayList要移动数据。**
 
 ### （1）增加元素到列表尾端：
