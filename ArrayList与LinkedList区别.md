@@ -2,12 +2,13 @@
 ---
 ArrayList和Vector使用了数组的实现，可以认为ArrayList或者Vector封装了对内部数组的操作，比如向数组中添加，删除，插入新的元素或者数据的扩展和重定向。
 LinkedList使用了循环双向链表数据结构。与基于数组ArrayList相比，这是两种截然不同的实现技术，这也决定了它们将适用于完全不同的工作场景。
-LinkedList链表由一系列表项连接而成。一个表项总是包含3个部分：元素内容，前驱表和后驱表。
-**综述**
+LinkedList链表由一系列表项连接而成。一个表项总是包含3个部分：元素内容，前驱表和后驱表。  
 
-**·1.ArrayList是实现了基于动态数组的数据结构，LinkedList基于链表的数据结构。** 
+**综述**  
 
-**·2.对于随机访问get和set，ArrayList觉得优于LinkedList，因为LinkedList要移动指针。**
+**·1.ArrayList是实现了基于动态数组的数据结构，LinkedList基于链表的数据结构。**  
+
+**·2.对于随机访问get和set，ArrayList觉得优于LinkedList，因为LinkedList要移动指针。**  
 
 **·3.对于新增和删除操作add和remove，LinedList比较占优势，因为ArrayList要移动数据。**
 
