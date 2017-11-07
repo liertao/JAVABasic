@@ -1,9 +1,4 @@
-# 中文字体
-## 英文字体
-### 日文字体
-#### asdfasdf
-##### asdfasdfasdf
-###### sdfsadfasdfasd
+# ==与equals（hash的认识）
 
 ----------
 	
