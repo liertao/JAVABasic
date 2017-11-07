@@ -1,4 +1,4 @@
-# ==与equals（hash的认识）
+ArrayList与LinkedList区别
 ----------
 	
 所以要想搞清楚equals()就必须要知道什么是哈希码。
