@@ -1,14 +1,14 @@
 # ArrayList与LinkedList区别
 ---
->>>>ArrayList和Vector使用了数组的实现，可以认为ArrayList或者Vector封装了对内部数组的操作，比如向数组中添加，删除，插入新的元素或者数据的扩展和重定向。
+>>ArrayList和Vector使用了数组的实现，可以认为ArrayList或者Vector封装了对内部数组的操作，比如向数组中添加，删除，插入新的元素或者数据的扩展和重定向。
 LinkedList使用了循环双向链表数据结构。与基于数组ArrayList相比，这是两种截然不同的实现技术，这也决定了它们将适用于完全不同的工作场景。
 LinkedList链表由一系列表项连接而成。一个表项总是包含3个部分：元素内容，前驱表和后驱表。  
 
 **综述**  
 
 **1.ArrayList是实现了基于动态数组的数据结构，LinkedList基于链表的数据结构。**  
-**·2.对于随机访问get和set，ArrayList觉得优于LinkedList，因为LinkedList要移动指针。**  
-**·3.对于新增和删除操作add和remove，LinedList比较占优势，因为ArrayList要移动数据。**
+**2.对于随机访问get和set，ArrayList觉得优于LinkedList，因为LinkedList要移动指针。**  
+**3.对于新增和删除操作add和remove，LinedList比较占优势，因为ArrayList要移动数据。**
 
 ### （1）增加元素到列表尾端：
 只要ArrayList的当前容量足够大，add()操作的效率非常高的。只有当ArrayList对容量的需求超出当前数组大小时，才需要进行扩容。扩容的过程中，会进行大量的数组复制操作。而数组复制时，最终将调用System.arraycopy()方法，因此add()操作的效率还是相当高的。
